@@ -1,7 +1,7 @@
 ---
 allowed-tools: Bash(git add:*), Bash(git status:*), Bash(git commit:*), Bash(git diff:*)
 description: Create PR with well-structured description.
-argument-hint: [draft] [parent-branch]
+argument-hint: "[draft] [parent-branch]"
 ---
 
 # Create PR Command
@@ -22,7 +22,7 @@ To create a pull request, just type:
 3. Plan the title and content of the PR based on the changes made.
 4. Based on the arguments, create either a draft or regular PR against the specified parent branch (default: develop).
 5. Open the created PR in the browser.
-  - `gh pr view [<pr-number>] --web`
+    - `gh pr view [<pr-number>] --web`
 
 ## gh command Examples
 
